@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" ng-app="movieApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>Moviez - movie gallery</title>
+  <meta name="description" content="Moviez">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link rel="stylesheet" href="styles/autocomplete.css">
+  <link rel="stylesheet" type="text/css" href="styles/material_style.css">
+</head>
+
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container" style="width:100%;">
+      <a id="logo-container" href="#" class="brand-logo">
+        <!--<img class="left" style="-webkit-user-select: none" src="">-->
+        <span class=" main-logo-heading left"> Moviez </span> </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#"></a>
+        </li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li>
+          <a href="#"></a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col s12  grey lighten-3 main-content" ng-view></div>
+    <!--m10 offset-l1 offset-m1 z-depth-2-->
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script type="text/javascript" src="scripts/autocomplete.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/controller.js"></script>
+  <script type="text/javascript" src="scripts/service.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+.project-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2196f3;
+    /*text-shadow: 1px 1px #999;*/
+    text-transform: capitalize;
+}
+
+.project-icon{
+    background: #26a69a;
+    padding: 5px;
+    /* color: #fff; */
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.70);
+}
+.margin-bottom-zero{
+    margin-bottom: 0 !important;
+}
+
+.total-record{
+    font-weight: bold;
+}
+.project-card{
+    border:1px solid #ccc;
+}
+.row .col.side-bar-card{
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.search-text{
+    margin-top : 15px;
+}
+.heading-quote{
+    font-size: 22px ;
+    margin-left: 10px;
+    padding-top: 5px;
+    color: #000;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.main-logo-heading{
+    margin-left: 10px;
+}
+
+span.badge.editor-choice {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #26a69a;
+    border-radius: 2px;
+}
